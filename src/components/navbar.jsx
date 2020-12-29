@@ -13,13 +13,14 @@ export default class MenuExampleSecondaryPointing extends Component {
     return (
       <div>
         {/* <NavLink to="/About">About |</NavLink> */}
-        <Menu pointing secondary>
+        <Menu pointing secondary className='massive'>
           <Menu.Menu position="left">
             <NavLink to="/">
               <Menu.Item
-                name="Home"
+                name="Raul Doejo"
                 active={activeItem === "Home"}
                 onClick={this.handleItemClick}
+                className="nav-moon"
               />
             </NavLink>
           </Menu.Menu>

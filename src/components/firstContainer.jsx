@@ -1,18 +1,33 @@
 import React from "react";
 import { Container, Header } from "semantic-ui-react";
+import circleImage from "../img/circle-pic.png";
 
 const MainContainer = () => (
   <Container>
-    <div className="text-container">
-      <span>Pizzas Putas y Perico Gafo</span>
-      <Header size="huge" className="big-header">
-        Simplicity. Value. Aesthetics.
-      </Header>
-      <p className="main-paragraph">
-        I'm a Senior Product Designer & Art Director focused on UI/UX design for
-        brands that make a difference. Currently working for Samsung Next.
-      </p>
-    </div>
+    <section>
+      <div className="text-container">
+        <Header size="huge" className="big-header">
+          Random. Quote. Thinking About.
+        </Header>
+        <p className="main-paragraph">
+          Hello there, nice to meet you! I am an International Business major
+          and product Designer; I like to think of myself as a creative problem
+          solver that loves the thrill of unravelling a challenge.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div className="img-container">
+        <img
+          className="ui medium circular image"
+          src={circleImage}
+          alt="Raul is supposed to be here"
+        />
+      </div>
+      <div className='btn-container'>
+        <button class="ui violet button">Let's talk</button>
+      </div>
+    </section>
   </Container>
 );
 
