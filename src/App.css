@@ -20,6 +20,11 @@
   flex-direction: column;
 }
 
+.container-3{
+  margin:1em;
+  padding:1.5em;
+}
+
 .big-header{
   font-size: 5rem!important;
   font-weight: 900!important;
@@ -82,4 +87,14 @@
 .footer-btns{
   display: flex;
   justify-content: center;
+}
+
+.about-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem!important;
+}
+
+.grid-header{
+  font-size: 1.5rem;
 }
