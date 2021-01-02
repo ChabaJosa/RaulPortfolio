@@ -8,7 +8,7 @@
 }
 
 .text-container{
-  margin:  5rem 2rem 0 2rem;
+  margin:  2rem 2rem 0 2rem;
   padding: 3rem 7rem;
   display: flex;
   flex-direction: column;
@@ -97,4 +97,35 @@
 
 .grid-header{
   font-size: 1.5rem;
+}
+
+#aboutPhoto {
+  background-image: url('./img/frisco.jpg');
+  -ms-background-position-x: center;
+  -ms-background-position-y: center;
+  background-position: center;
+  background-size: cover;
+  max-width: 1200px;
+  height: 240px;
+  width: 100%; 
+}
+
+.ui.message, .ui.warning.message{
+  background:white;
+}
+
+#contact{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 83vh;
+  padding-left: 8%;
+  padding-right: 12%;
+}
+
+#contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: auto;
 }

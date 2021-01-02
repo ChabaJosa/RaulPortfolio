@@ -24,8 +24,10 @@ const MainContainer = () => (
           alt="Raul is supposed to be here"
         />
       </div>
-      <div className='btn-container'>
-        <button class="ui violet button">Let's talk</button>
+      <div className="btn-container">
+        <a href="/contact">
+          <button class="ui violet button">Let's talk</button>
+        </a>
       </div>
     </section>
   </Container>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Header, Grid, Menu } from "semantic-ui-react";
-import circleImage from "../../img/circle-pic.png";
+// import friscoImage from "../../img/frisco.jpg";
 
 export default function About() {
   return (
@@ -9,13 +9,7 @@ export default function About() {
         <Header size="huge" className="about-title">
           About
         </Header>
-        <div className="img-container">
-          <img
-            className="ui medium circular image"
-            src={circleImage}
-            alt="Raul is supposed to be here"
-          />
-        </div>
+        <div className="img-container" id="aboutPhoto"></div>
         <section>
           <div>
             <p
@@ -42,10 +36,12 @@ export default function About() {
             </p>
           </div>
           <div className="btn-container" style={{ paddingBottom: "3rem" }}>
-            <button class="ui violet button">Let's talk</button>
+            <a href="/contact">
+              <button class="ui violet button">Let's talk</button>
+            </a>
           </div>
         </section>
-        <section style={{marginBottom:'3rem'}}>
+        <section style={{ marginBottom: "3rem" }}>
           <Grid textAlign="center" columns={3}>
             <Grid.Row>
               <Grid.Column>
@@ -59,7 +55,9 @@ export default function About() {
               </Grid.Column>
               <Grid.Column>
                 <Menu fluid vertical>
-                  <Menu.Item className="header grid-header">Experience</Menu.Item>
+                  <Menu.Item className="header grid-header">
+                    Experience
+                  </Menu.Item>
                   <Menu.Item>Poodle</Menu.Item>
                   <Menu.Item>Cockerspaniel</Menu.Item>
                   <Menu.Item>Poodle</Menu.Item>
